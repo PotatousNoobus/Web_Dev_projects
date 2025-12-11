@@ -1,0 +1,57 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id = "title">Survey Form </h1>
+    <p id = "description">Here's a quick and a short survey form to help us know about your choices</p>
+  <form id = "survey-form">
+    <label for = "name" id = "name-label">Enter your Full Name: </label>
+    <input type = "text" id = "name" name = "name" minlength = "4" maxlength = "40" placeholder = "eg: Alexa Bliss" required>
+    <br><br>
+    <label for = "email" id = "email-label">Enter your Email-ID:</label>
+    <input type = "email" required id = "email" minlength = "5" placeholder = "example@email.com">
+    <br><br>
+    <label for = "number" id = "number-label">Enter your phone number:</label>
+    <input type = "number" id = "number" minlength = "10" maxlength = "10" min = "0000000000" max = "9999999999" placeholder = "eg: 9876543210">
+    <br><br>
+    <label for = "dropdown">Which of these are you more likely to get as a pet ?</label>
+    <select id = "dropdown">
+      <option value = "dog">Sydney Sweeney</option>
+      <option value = "whale">Sperm Whale</option>
+      <option value = "rat">Rat</option>
+      <option value = "zombie">Zombie</option>
+    </select>
+    <br><br>
+    <label for = "t-or-d">TRUTH OR DARE ?</label>
+    <br>
+    <input type = "radio" name = "t-or-d" id = "t-or-d" value = "truth">Truth
+    <input type = "radio" name = "t-or-d" id = "t-or-d" value = "dare">Dare
+    <br><br>
+    Select your favourite actress(es): 
+    <br>
+    <input type = "checkbox" id = "emma" value = "emma">
+    <label for = "emma">Emma Watson</label>
+    <input type = "checkbox" id = "jolie" value = "jolie">
+    <label for = "jolie">Anjelina Jolie</label>
+    <input type = "checkbox" id = "gal" value = "gal">
+    <label for = "gal">Gal Gadot</label>
+    <br><br>
+    <label for = "secrets">Share some of your darkest secrets with us :)</label>
+    <textarea id = "secrets" rows = "10" cols = "40"></textarea><br><br>
+    
+<button type = "submit" id = "submit">Submit</button>
+
+
+
+  </form>
+  </body>
+</html>
+
+** end of index.html **
+
